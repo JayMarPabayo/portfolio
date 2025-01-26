@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gowun+Dodum&family=Sigmar&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* FONTS */
+
+.sigmar-regular {
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gowun-dodum-regular {
+  font-family: "Gowun Dodum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-regular-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.volkhov-bold-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* BACKGROUND COLORS */
+
+.bg-plantation {
+  background-color: #27423b;
+}
+
+.bg-opal {
+  background-color: #dcdcdc;
+}
+
+.link {
+  @apply hover:tracking-wider hover:font-bold duration-300;
+}
+
+#videoModal video {
+  transform: scale(1);
+}
+
+#videoModal video:hover {
+  transform: scale(1.1);
+}
